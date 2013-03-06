@@ -1,0 +1,118 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by:                       Rui Figueiredo / webmaster@webfiresoft.com
+# ConquerChat Version:             4.3
+# Date:                                     2003/04/10
+# Language:                             Portuguese/Portugal (pt)
+# Patch:                                   1.0
+ 
+# headers
+users.title=Utilizadores
+rooms.title=Salas
+message.title=Digite a sua mensagem
+ 
+# buttons
+button.login=entrar
+button.login.title=Utilizador no chat
+button.send=enviar
+button.send.title=Enviar mensagem
+button.help=ajuda
+button.help.title=Abre janela de ajuda
+button.logout=sair
+button.logout.title=Sair do chat
+button.add=criar
+button.add.title=Criar nova sala
+ 
+# login screen
+login.username=Nickname:
+login.users_online=Utilizadores Online
+login.no_users_online=Nenhum utilizador no Chat
+login.users_logged_on={0} de {1} utilizadores no Chat
+login.join_chat=Participe {0}
+login.header.username=Utilizador
+login.header.room=Sala
+ 
+# logout screen
+logout.in_progress=A Sair do Chat. Por favor aguarde um momento!
+ 
+# admin screen
+admin.login={0} Administração
+admin.password=Password:
+ 
+admin.button.kick=Kick
+admin.button.init=Inicializa!
+admin.button.remove=Remove
+admin.error.incorrect_password=Esta password não é do Administrador.
+ 
+# users
+users.all=Todos
+users.initializing=A Inicializar...
+ 
+# user
+user.logged_on={0} entrou em {1}
+user.logged_off={0} deixou a sala em  {1}
+user.left_room={0} saiu {1} e entrou {2}
+user.entered_room={0} acabou de entrar na sala {2}
+user.say_all={0} disse:  {1}
+user.say_private={0} msg privada {1} "{2}"
+ 
+# profile
+profile.title=Dados do utilizador {0}
+profile.ip_address=Endereço IP
+profile.logged_on=Entrou
+profile.last_action=Última acção
+profile.written_messages=Mensagens Escritas
+profile.close=Fechar
+ 
+# rooms
+rooms.max_limit_reached=Erro ao criar sala\n\nVocê não está autorizado a criar salas. O\nlimite de {0} foi alcançado. Entre em contacto com \n webmaster ({1}) para poder\nter o número de salas aumentado.
+ 
+typing_too_fast=Você está a digitar muito rápido. Espere um segundo e tente novamente.
+you_have_been_logged_out=Você foi desconectado do chat.
+ 
+# private chat
+private.title=Chat privado entre {0} e {1}
+ 
+# help
+help.title=Ajuda Rápida
+help.commands=Esta lista dá-lhe uma avaliação dos comandos disponíveis.
+help.command.bold=<b> e </b> deixa o texto a <b>negrito</b>.
+help.command.italic=<i> e </i> deixa o texto a <i>italico</i>.
+help.command.underline=<u> e </u> deixa o texto a <u>sublinhado</u>.
+help.command.date=<date> insere a data atual.
+help.command.time=<time> insere a hora atual.
+help.command.datetime=<datetime> insere a data e hora atual.
+help.symbols=Alguns símbolos são usados para representar os participantes.
+help.symbols.log_in=Uma <img border="0" src="../images/new.gif" width="9" height="9" alt="new"> indica que o utilizador está Online.
+help.symbols.log_out=A <img border="0" src="../images/bp.gif" width="9" height="9" alt="notify"> indica que o utilizador não está online.
+help.hint=Sugestão:
+help.hint.refresh=Digite uma mensagem em branco para actualizar a janela do chat.
+help.smilies=Smilies:
+help.smilies.link=Clique aqui para ver os Smilies disponíveis.
+ 
+# smilies
+smilies.title=Smilies
+smilies.description=Quando os Smilies forem digitadas, eles serão substituídos por imagens como mostradas na lista abaixo.
+smilies.hung_over=Dúvidas
+smilies.smile=Sorriso
+smilies.clown=Palhaço
+smilies.frown=Zangado
+smilies.wink=Piscadela
+smilies.angry=Zangado
+smilies.devil=Diabólico
+smilies.big_grin=Sorrizão
+smilies.oh=Espanto!
+smilies.cheeky=Bochechudo
+smilies.tongue=Língua
+ 
+# errors
+error.maximum_users_reached=O número máximo de utilizadores foi alcançado. Não será permitido entrar neste momento.
+error.missing_username=Você tem que digitar um utilizador antes de entrar na Sala de Chat.
+error.username_in_use=Você não pode usar este nome, pois outra pessoa já está a utilizá-lo.
+error.invalid_username=O seu nome contém caracteres impróprios. Por favor escolha outro.
+error.username_blocked=Desculpe, mas você não pode entrar em com este nome.
+error.username_length_exceeded=O nome informado não deve exceder {0} caracteres.

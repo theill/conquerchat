@@ -1,0 +1,127 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Alberti Mihaly
+# ConquerChat Version: 	4.3
+# Date: 				3/7/2003
+# Language: 			Hungarian (hu)
+# 
+
+# headers
+users.title=Chatelõk
+rooms.title=Szobák
+message.title=Írd be az üzeneted
+
+# buttons
+button.login=belép
+button.login.title=Belépés a chatre
+button.send=küld
+button.send.title=Üzenet küldése
+button.help=súgó
+button.help.title=Megnyit egy súgót
+button.logout=kilépés
+button.logout.title=Kilép a chatrõl
+button.add=létrehoz
+button.add.title=Szobát hoz létre
+
+# login screen
+login.username=Becenév:
+login.users_online=Chatelõk
+login.no_users_online=Nincsenek chatelõk
+login.users_logged_on={0} a {1} ból/bõl bejelentkezve
+login.join_chat=Belépés a {0} chatre
+login.header.username=Felhasználónév
+login.header.room=Szoba
+
+# logout screen
+logout.in_progress=A kiléptetés folyamatban, kérlek várj!
+logout.no_longer_on=Sikeres kijelentkezés. Reméljük jól érezted magad.
+
+# admin screen
+admin.login={0} Adminisztráció
+admin.password=Jelszó:
+
+admin.button.kick=Kirúg
+admin.button.init=Bemér!
+admin.button.remove=Töröl
+admin.error.incorrect_password=Ez nem az admin jelszó!
+
+# users
+users.all=Összes felhasználó
+users.initializing=Inicializálás...
+
+# user
+user.logged_on={0} belépett ({1})
+user.logged_off={0} kilépett ({1})
+user.left_room={0} kilépett {1} és belépett: {2}
+user.entered_room={0} belépett ({2})
+user.say_all=<{0}> {1}
+user.say_private=-> Privát: ({0} -> {1}) "{2}"
+user.timed_out={0} elaludt és beleesett az ágyába ({1})
+
+# profile
+profile.title=Infó: {0}
+profile.ip_address=IP cím:
+profile.logged_on=Belépett ekkor:
+profile.last_action=Utolsó cselekmény:
+profile.written_messages=Írt üzenetek száma:
+profile.close=Bezár
+
+# rooms
+rooms.max_limit_reached=Hiba a szoba létrehozása közben!\n\nNem tudsz több szobát létrehozni, mert a szobák száma ({0})\nmeghaladta a maximumot. Lépj kapcsolatba a\nwebmesterrel ({1}) hogy megnövelje a szobák számát.
+
+typing_too_fast=Túl gyorsan gépelsz! Várj egy kicsit, és folytathatod.
+you_have_been_logged_out=Kiléptél a chatrõl.
+
+# private chat
+private.title=Privát {0} és {1} közt.
+
+# help
+help.title=Gyors súgó
+help.commands=Egy lista a használható parancsokról:
+help.command.bold=&lt;b&gt; és &lt;/b&gt; -> <b>félkövér</b> szöveg.
+help.command.italic=&lt;i&gt; és &lt;/i&gt; -> <i>dõlt</i> szöveg.
+help.command.underline=&lt;u&gt; és &lt;/u&gt; -> <u>aláhúzott</u> szöveg.
+help.command.date=&lt;date&gt; beilleszti az aktuális dátumot.
+help.command.time=&lt;time&gt; beilleszti az aktuális idõt.
+help.command.datetime=&lt;datetime&gt; beilleszti az aktuális dátumot és idõt.
+help.symbols=Belépések és kilpések jelzése:
+help.symbols.log_in=<img border="0" src="images/new.gif" width="9" height="9" alt="new"> valaki belépett.
+help.symbols.log_out=<img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> valaki kilépett.
+help.hint=Tipp:
+help.hint.refresh=Nyomj entert egy üres sorra a képernyõ törléséhez.
+help.smilies=Mosolyok:
+help.smilies.link=Katt ide a használható mosolyokért.
+
+# smilies
+smilies.title=Mosolyok
+smilies.description=Ha beírsz egy smiley-t a következõkkel lesz helyettesítve:
+smilies.hung_over=Meghaltam
+smilies.smile=Mosolgás
+smilies.clown=Malacfej
+smilies.frown=Elkeseredett
+smilies.wink=Kacsint
+smilies.angry=Mérges
+smilies.devil=Ördög
+smilies.big_grin=Hahota
+smilies.oh=Oh!
+smilies.cheeky=Cheeky
+smilies.tongue=Nyelvnyújtás
+
+# colors
+colors.none=Nincs
+colors.black=Fekete
+colors.red=Piros
+colors.green=Zöld
+colors.blue=Kék
+
+# errors
+error.maximum_users_reached=Sajnos több felhasználó nem léphet be. Megtelt a chat.
+error.missing_username=Kérlek írj be egy felhasználónevet!
+error.username_in_use=Ezt a nevet már valaki használja!
+error.invalid_username=A neved érvénytelen karaktereket tartalmaz, kérlek válassz másikat!
+error.username_blocked=Ezzel a névvel nem tudsz bejelentkezni.
+error.username_length_exceeded=A névnek minimum {0} karakternek kell lennie!

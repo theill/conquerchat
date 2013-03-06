@@ -1,0 +1,132 @@
+#
+# Visi pavadinimai vartojami ConquerChat programoje. Nekeiskite teksto kaireje lygybes
+# (=) zenklo puseje nes tai yra "raktazodis" skirtas atpazinti lokalizuotas zinutes.
+# {0}, {1}, ..., {n} bus pakeisti dinamisku turiniu zinuciu rodymo metu.
+# 
+#
+# Translation by: 		Justas (aoidas@centras.lt)
+# ConquerChat Version: 	4.3
+# Date: 				23/09/2003
+# Language: 			Lithuanian (lt)
+# 
+# Isverte:	 		Justas (aoidas@centras.lt)
+# ConquerChat versija: 	4.3
+# Data: 				23/09/2003
+# Kalba: 			Lietuviu (lt)
+# 
+
+# headers
+users.title=Vartotojai
+rooms.title=Kambariai
+message.title=Iveskite savo zinute
+
+# buttons
+button.login=prisijungti
+button.login.title=Prisijunge prie chato
+button.send=siusti
+button.send.title=Pasiunte zinute
+button.help=pagalba
+button.help.title=Atidare pagalbos langa
+button.logout=atsijungti
+button.logout.title=Atsijunge nuo chato
+button.add=sukurti
+button.add.title=Sukure nauja kambari
+
+# login screen
+login.username=Vartotojo vardas:
+login.users_online=Prisijunge vartotjai
+login.no_users_online=Nera prisijungusiu vartotoju
+login.users_logged_on={0} is {1} vartotoju yra prisijunge siuo metu
+login.join_chat=Prisijungimas prie "{0}"
+login.header.username=Vartotojo vardas
+login.header.room=Kambarys
+
+# logout screen
+logout.in_progress=Vyksta atsijungimas. Prasome palaukti!
+logout.no_longer_on=Jus esate atsijunges. Mes tikimes, kad jums patiko.
+
+# admin screen
+admin.login={0} Administracija
+admin.password=Slaptazodis:
+
+admin.button.kick=Isspirti
+admin.button.init=Pazymeti!
+admin.button.remove=Pasalinti
+admin.error.incorrect_password=Tai ne administratoriaus slaptazodis.
+
+# users
+users.all=Visi vartotojai
+users.initializing=Zymima...
+
+# user
+user.logged_on={0} prisijunge: {1}
+user.logged_off={0} paliko mus: {1}
+user.left_room={0} paliko {1} ir atejo i {2}
+user.entered_room={0} ka tik atejo i {2}
+user.say_all={0} pasake {1}
+user.say_private={0} pasnibzdejo {1} "{2}"
+user.timed_out={0} uzsnudo ir buvo paguldytas i lovele {1}
+
+# profile
+profile.title=Profilis {0}
+profile.ip_address=IP Adresas
+profile.logged_on=Prisijunges
+profile.last_action=Paskutinis veiksmas
+profile.written_messages=Parasytos zinutes
+profile.close=Uzdaryti
+
+# rooms
+rooms.max_limit_reached=Klaida kuriant nauja kambari\n\nJus nebegalite sukurti daugiau\n pokalbio kambariu siame chate.\n Pokalbio kambariu limitas pasiektas.\n Sis limitas lygus {0}.
+
+typing_too_fast=Jus rasote pernelyg greitai. Palaukite kuri laika, kad galetumete rasyti toliau.
+you_have_been_logged_out=Jus atjungtas nuo chato.
+
+# private chat
+private.title=Privatus pokalbis tarp {0} ir {1}
+
+# help
+help.title=Mazoji pagalba
+help.commands=Cia pateikta imanomu komandu apzvalga.
+help.command.bold=&lt;b&gt; ir &lt;/b&gt; sukuria <b>pajuodinto</b> teksto efekta.
+help.command.italic=&lt;i&gt; ir &lt;/i&gt; sukuria <i>pasvirusio</i> teksto efekta.
+help.command.underline=&lt;u&gt; ir &lt;/u&gt; sukuria <u>pabraukto</u> teksto efekta.
+help.command.date=&lt;date&gt; iraso dabartine data.
+help.command.time=&lt;time&gt; iraso dabartini laika.
+help.command.datetime=&lt;datetime&gt; iraso dabartini laika ir data.
+help.symbols=Kai kurie simboliai skirti pazymeti vartotoju prisijungimus, atsijungimus ir kt..
+help.symbols.log_in=<img border="0" src="images/new.gif" width="9" height="9" alt="new"> pazymi, kad vartotojas prisijunge.
+help.symbols.log_out=<img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> pazymi, kad vartotojas atsijunge.
+help.hint=Patarimas:
+help.hint.refresh=Parasykite tuscia zinute, kad pokalbiu kambario langas atsinaujintu is karto.
+help.smilies=Smilies:
+help.smilies.link=Paspauskite cia, kad pamatytumete, kokios yra imanomos sypseneles.
+
+# smilies
+smilies.title=sypseneles
+smilies.description=Jei rasant teksta pavartosite simboli, kuris yra suprantamas kaip sypsenele, jis bus pakeistas vienu is zemiau pateiktu paveiksliuku.
+smilies.hung_over="Mires"
+smilies.smile=Linksmas
+smilies.clown=Klounas
+smilies.frown=Liudnas
+smilies.wink=Prisimerkes
+smilies.angry=Piktas
+smilies.devil=Velniskas
+smilies.big_grin=Issiviepes
+smilies.oh=Nustebes
+smilies.cheeky=selmiskas
+smilies.tongue=Rodantis liezuvi
+
+# colors
+colors.none=Bespalvis
+colors.black=Juodas
+colors.red=Raudonas
+colors.green=Zalias
+colors.blue=Melynas
+
+# errors
+error.maximum_users_reached=Prisijunges maksimalus vartotoju skaicius. Bandykite prisijungti veliau.
+error.missing_username=Kad prisijugtumete prie chato, jus turite ivesti vartotojo varda.
+error.username_in_use=Kazkas kitas jau yra pasirinkes sita vartotojo varda, jus jo naudoti negalite.
+error.invalid_username=Jusu vartotojo vardas susideda is neleistinu simboliu, pasirinkite kita vartotojo varda.
+error.username_blocked=Su siuo vartotojo vardu prisijungti negalima.
+error.username_length_exceeded=Vartotjo vardas neturi virsyti {0} simboliu.

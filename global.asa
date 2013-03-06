@@ -1,0 +1,20 @@
+<OBJECT
+	RUNAT="Server"
+	SCOPE="Application" 
+	ID="conquerChatUsers"
+	PROGID="Scripting.Dictionary">
+</OBJECT>
+
+<OBJECT
+	RUNAT="Server"
+	SCOPE="Application" 
+	ID="conquerChatRooms"
+	PROGID="Scripting.Dictionary">
+</OBJECT>
+
+<OBJECT
+	RUNAT="Server"
+	SCOPE="Application" 
+	ID="conquerChatMessages"
+	PROGID="Scripting.Dictionary">
+</OBJECT>

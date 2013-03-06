@@ -1,0 +1,127 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Avi Laviad
+# ConquerChat Version: 	4.3
+# Date: 				3/7/2003
+# Language: 			Hebrew (he)
+# 
+
+# headers
+users.title=משתמשים
+rooms.title=חדרים
+message.title=לכתיבה הקלד כאן
+
+# buttons
+button.login=התחבר
+button.login.title=להתחבר לצ'אט
+button.send=שלח
+button.send.title=שולח הודעה
+button.help=עזרה
+button.help.title=פותח חלון עזרה
+button.logout=התנתק
+button.logout.title=מתנתק מן הצ'אט
+button.add=הוסף
+button.add.title=מוסיף חדר חדש
+
+# login screen
+login.username=שם משתמש:
+login.users_online=משתמשים מחוברים
+login.no_users_online=אין משתמשים שכרגע מחוברים
+login.users_logged_on=<span>{0}&nbsp;</span><span>מתוך&nbsp;</span><span>{1}&nbsp;</span><span>משתמשים מחובר/ים כרגע</span>
+login.join_chat={0}הצטרף ל-
+login.header.username=שם משתמש
+login.header.room=חדר
+
+# logout screen
+logout.in_progress=מתבצעת כרגע התנתקות. אנא המתן!
+logout.no_longer_on=אינך מחובר יותר למערכת. מקווים שנהנית משהייתך.
+
+# admin screen
+admin.login={0} אחראי מערכת
+admin.password=סיסמה:
+
+admin.button.kick=העף
+admin.button.init=אתחל!
+admin.button.remove=הסר
+admin.error.incorrect_password=זוהי אינה סיסמת אחראי מערכת
+
+# users
+users.all=כל המשתמשים
+users.initializing=מאתחל...
+
+# user
+user.logged_on=<span>{0}</span><span>&nbsp;התחבר/ה ב-</span><span>{1}</span>
+user.logged_off=<span>{0}</span><span>&nbsp;החליט/ה לעזוב ב-</span><span>{1}</span>
+user.left_room=<span>{0}</span><span>&nbsp;עזב את&nbsp;</span><span>{1}</span><span>&nbsp;והתחבר אל&nbsp;</span><span>{2}</span>
+user.entered_room=<span>{0}</span><span>&nbsp;כרגע נכנס ל-</span><span>{2}</span>
+user.say_all=<span>{0}</span><span style="display:none;">א</span><span>&nbsp;:&nbsp;</span><span>{1}</span>
+user.say_private=<span> {0}&nbsp;</span><span>&nbsp;{1}&nbsp;</span><span>"{2}"</span>
+user.timed_out=<span>{0}</span><span>&nbsp;יצא/ה מהצ'אט ב-</span><span>{1}</span>
+
+# profile
+profile.title=<span>פרופיל ל-</span><span>{0}</span>
+profile.ip_address=כתובת IP
+profile.logged_on=מחובר
+profile.last_action=פעולה אחרונה
+profile.written_messages=הודעות כתובות
+profile.close=סגור
+
+# rooms
+rooms.max_limit_reached=><span>ישנה בעיה בהוספת חדרים חדשים\n\nאינך מורשה להוסיף חדרים לצ'אט. ה-\nההגבלה של </span><span>{0}</span><span>הנך יכול לצור קשר עם האחראי מערכת\n </span><span> ({1}) </span><span>ע"מ שמספר מקסימום החדרים יגדל</span>
+
+typing_too_fast=הינך מקליד מהר מדי. חכה שניה ונסה שוב.
+you_have_been_logged_out=נותקת מן הצ'אט
+
+# private chat
+private.title=<span>שיחה פרטית בין&nbsp;</span><span>{0}&nbsp;</span><span>ו-</span><span>{1}</span>
+
+# help
+help.title=עזרה
+help.commands=רשימה זו הינה תקציר של הפקודות האפשריות.
+help.command.bold=&lt;b&gt; ו- &lt;/b&gt; לסמן טקסט ב <b>כתב מודגש</b> .
+help.command.italic=&lt;i&gt; ו- &lt;/i&gt; לסמן טקסט ב <i>כתב נטוי</i> .
+help.command.underline=&lt;u&gt; ו- &lt;/u&gt; לסמן טקסט ב <u>קו תחתון</u> .
+help.command.date=&lt;date&gt; מוסיף את התאריך הנוכחי
+help.command.time=&lt;time&gt; מוסיף את השעה הנוכחית
+help.command.datetime=&lt;datetime&gt; מוסיף את התאריך והשעה הנוכחית
+help.symbols=חלק מהסימנים מסמנים אינדיקציות לגבי מצב המשתמשים, כגון: מחובר, מנותק וכו'.
+help.symbols.log_in=סימן <img border="0" src="images/new.gif" width="9" height="9" alt="new"> מסמל שהמשתמש התחבר
+help.symbols.log_out=סימן <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> מסמל שהמשתמש התנתק
+help.hint=עצה:
+help.hint.refresh=לרענון מיידי של חלון הצ'אט יש להקליד שורה ריקה.
+help.smilies=סמלים:
+help.smilies.link=לצפייה בסמלים האפשריים, לחץ כאן
+
+# smilies
+smilies.title=סמלים
+smilies.description=בהקלדת תווים מיוחדים הידועים כ-סמייליס, הנ"ל יוחלף בתמונה האמיתי כמו שהיא מוצגת ברשימה.
+smilies.hung_over=הנג-אובר
+smilies.smile=חיוך
+smilies.clown=ליצן
+smilies.frown=עצוב
+smilies.wink=קריצה
+smilies.angry=כועס
+smilies.devil=שטן
+smilies.big_grin=חיוך גדול
+smilies.oh=או!
+smilies.cheeky=Cheeky
+smilies.tongue=לשון
+
+# colors
+colors.none=אין
+colors.black=שחור
+colors.red=אדום
+colors.green=ירוק
+colors.blue=כחול
+
+# errors
+error.maximum_users_reached=מס' המשתמשים במערכת הגיעה למקסימום המותר. אינך מורשה להתחבר כרגע לצ'אט
+error.missing_username=עליך לבחור בשם משתמש לפני ההתחברות לצ'אט
+error.username_in_use=אינך יכול להשתמש בשם זה מכיוון שמישהו אחר משתמש בו
+error.invalid_username=כינוי זה מכיל תווים לא חוקיים. אנא בחר שם משתמש אחר
+error.username_blocked=אינך יכול להתחבר עם שם משתמש זה
+error.username_length_exceeded=שם משתמש עבר את גבול {0} התווים

@@ -1,0 +1,127 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Alain Bonvin
+# ConquerChat Version: 		4.3
+# Date: 			2003 / 06 / 23
+# Language: 			German (de)
+# 
+
+# headers
+users.title=Benutzer
+rooms.title=Räume
+message.title=Bitte geben Sie Ihre Meldung ein
+
+# buttons
+button.login=Login
+button.login.title=Loggt in den Chat ein
+button.send=Absenden
+button.send.title=Mitteilung absenden
+button.help=Hilfe
+button.help.title=Öffnet das Hilfe-Fenster
+button.logout=Abmelden
+button.logout.title=Meldet Sie vom Chat ab
+button.add=Hinzu
+button.add.title=Fügt neuen Raum hinzu
+
+# login screen
+login.username=Benutzername:
+login.users_online=Benutzer Online
+login.no_users_online=Im Moment sind keine Benutzer im Chat angemeldet.
+login.users_logged_on={0} von {1} Benutzer(n) sind zur Zeit angemeldet.
+login.join_chat=Beitreten {0}
+login.header.username=Benutzername
+login.header.room=Raum
+
+# logout screen
+logout.in_progress=Abmeldung läuft. Bitte warten!
+logout.no_longer_on=Sie sind nicht länger angemeldet. Wir hoffen, Ihnen hat der Aufenthalt hier gefallen.
+
+# admin screen
+admin.login={0} Administration
+admin.password=Passwort:
+
+admin.button.kick=Kick
+admin.button.init=Initialisiere!
+admin.button.remove=Entfernen
+admin.error.incorrect_password=Das war nicht das Administratoren-Passwort.
+
+# users
+users.all=Alle Benutzer
+users.initializing=Initialisiere...
+
+# user
+user.logged_on={0} eingeloggt am {1}
+user.logged_off={0} hat entschieden, uns zu verlassen, und zwar um {1}
+user.left_room={0} verliess {1} und wechselt zu {2}
+user.entered_room={0} hat {2} betreten
+user.say_all={0} sagt {1}
+user.say_private={0} flüstert zu {1} "{2}"
+user.timed_out={0} ging schlafen und wurde um {1} ins Bett gebracht.
+
+# profile
+profile.title=Profil für {0}
+profile.ip_address=IP Adresse
+profile.logged_on=Eingeloggt
+profile.last_action=Letzte Aktion
+profile.written_messages=Geschriebene Meldungen
+profile.close=Schliessen
+
+# rooms
+rooms.max_limit_reached=Raum kann nicht hinzugefügt werden!\nSie sind nicht berechtigt, weitere Räume hinzuzufügen. Das\nLimit wurde erreicht. Bitte kontaktieren Sie den\n Webmaster ({1}) um die Anzahl der Räume heraufsetzen zu lassen.
+
+typing_too_fast=Sie tippen zu schnell! Bitte warten Sie ein paar Sekunden.
+you_have_been_logged_out=Sie wurden vom Chat abgemeldet.
+
+# private chat
+private.title=Privater Chat zwischen {0} und {1}
+
+# help
+help.title=Schnelle Hilfe
+help.commands=Das ist eine Übersicht über die verfügbaren Kommandos.
+help.command.bold=&lt;b&gt; und &lt;/b&gt; fassen <b>fetten</b> Text ein.
+help.command.italic=&lt;i&gt; und &lt;/i&gt; fassen <i>kursiven</i> Text ein.
+help.command.underline=&lt;u&gt; und &lt;/u&gt; fassen <u>unterstrichenen</u> Text ein.
+help.command.date=&lt;date&gt; fügt das aktuelle Datum ein.
+help.command.time=&lt;time&gt; fügt die aktuelle Zeit ein.
+help.command.datetime=&lt;datetime&gt; fügt das aktuelle Datum und die aktuelle Zeit ein.
+help.symbols=Verschiedene Symbole visualisieren den Status des Benutzers wie eingeloggt, ausgeloggt etc.
+help.symbols.log_in=Ein <img border="0" src="images/new.gif" width="9" height="9" alt="new"> Zeigt, dass der Benutzer eingeloggt ist.
+help.symbols.log_out=Ein <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> Zeigt, dass der Benutzer ausgeloggt ist.
+help.hint=Hinweis:
+help.hint.refresh=Absenden ohne Textinhalt aktualisiert den Chat sofort.
+help.smilies=Smilies:
+help.smilies.link=Klicken Sie hier, um alle Smilies zu sehen.
+
+# smilies
+smilies.title=Smilies
+smilies.description=Wenn Sie bekannte Zeichenkombinationen wie z.Bsp.\n:-) eingeben, werden diese durch Symbole ersetzt.
+smilies.hung_over=Verkatert
+smilies.smile=Freundlich
+smilies.clown=Clown
+smilies.frown=Traurig
+smilies.wink=Zwinkernd
+smilies.angry=Böse
+smilies.devil=Teuflisch
+smilies.big_grin=Grosses Lachen
+smilies.oh=Oh!
+smilies.cheeky=Cheeky
+smilies.tongue=Zunge zeigen
+
+# colors
+colors.none=Keine
+colors.black=Schwarz
+colors.red=Rot
+colors.green=Grün
+colors.blue=Blau
+
+# errors
+error.maximum_users_reached=Die maximale Anzahl Benutzer wurde erreicht. Sie können zur Zeit nicht einloggen.
+error.missing_username=Sie müssen einen Benutzernamen wählen, bevor Sie am Chat teilnehmen können.
+error.username_in_use=Dieser Benutzername ist bereits in Gebrauch. Bitte wählen Sie einen anderen Benutzernamen.
+error.invalid_username=Ihr gewählter Benutzername enthält ungültige Zeichen. Bitte korrigieren SIe das.
+error.username_blocked=Sorry, Sie können mit diesem Namen nicht einloggen, dieser Name ist reserviert.
+error.username_length_exceeded=Ihr Benutzername enthält mehr als {0} Zeichen, dies ist nicht erlaubt..

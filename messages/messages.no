@@ -1,0 +1,72 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Thomas Mertz
+# ConquerChat Version: 	4.1
+#
+
+# headers
+users.title=Brukere
+rooms.title=Chatrom
+message.title=Skriv din beskjed
+
+# buttons
+button.login=Logg inn
+button.send=Send
+button.help=Hjelp
+button.logout=Logg ut
+button.add=Legg til
+
+# login screen
+login.username=Brukernavn:
+login.users_online=Brukere Online
+login.no_users_online=Ingen brukere online
+login.users_logged_on={0} av {1} brukere online
+login.join_chat=Gå inn i {0}
+login.header.username=Brukernavn
+login.header.room=Chatrom
+
+# admin screen
+admin.login={0} Administration
+admin.password=Passord:
+
+admin.button.kick=Spark ut
+admin.button.init=Initialiser!
+admin.button.remove=Fjern
+admin.error.incorrect_password=Feil passord.
+
+# users
+users.all=Alle brukere
+users.initializing=Initialiserer...
+
+# user
+user.logged_on={0} logget på klokken {1}
+user.logged_off={0} forlot {1}
+user.left_room={0} forlot {1} og gikk til {2}
+user.entered_room={0} gikk inn i {2}
+user.say_all={0} sier {1}
+user.say_private={0} hvisker {1} "{2}"
+
+# profile
+profile.title={0}'s profil
+profile.ip_address=IP Addresse
+profile.logged_on=Logget på
+profile.last_action=Siste handling
+profile.written_messages=Antall beskjeder
+profile.close=Lukk
+
+# rooms
+rooms.max_limit_reached=Feil.\n\nDu kan ikke opprette dette nå.\n\nMaks antal rom er {0}.\n\nDu kan kontakte webmaster ({1}) hvis du ønsker å få hevet antall mulige rum.
+
+typing_too_fast=Vennligst vent litt før du skriver inn ny beskjed.
+
+# errors
+error.maximum_users_reached=Det er ikke plass til flere brukere nå. Du kan ikke logge inn på nåværende tidspunkt.
+error.missing_username=Du må skrive inn et brukernavn for å bruke chatten.
+error.username_in_use=Dette brukernavnet er i bruk, vennligst velg et annet.
+error.invalid_username=Ditt brukernavn inneholder ulovlige tegn, vennligst velg et annet.
+error.username_blocked=Du kan ikke logge inn med dette brukernavnet.
+error.username_length_exceeded=Brukernavnet må ikke overskride {0} tegn.

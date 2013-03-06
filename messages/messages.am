@@ -1,0 +1,135 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Tigran Tananyan / security@vanadzor.org ICQ: 77-22-77-29
+# ConquerChat Version: 	4.4
+# Date: 				22/4/2005
+# Language: 			Armenian (AM)
+# 
+
+# general application settings
+application.name=ConquerChat
+application.version=4.4
+application.webmaster_email=webmaster@unknown.com
+
+# headers
+users.title=Ogtvoghner
+rooms.title=Senyakner
+message.title=Mutqagreq dzer aseliqy
+
+# buttons
+button.login=Mutq
+button.login.title=chati hetqery
+button.send=ugharkel
+button.send.title=Ugharkvac aseliqnery
+button.help=Ognutyun
+button.help.title=Bacel Ognutyan Patuhany
+button.logout=durs gal
+button.logout.title=Durs gal chatic
+button.add=avelacnel
+button.add.title=Avelacnel nor senyak
+
+# login screen
+login.username=Makanun
+login.users_online=Kapi mej gtnvogh ogtvoghnery
+login.no_users_online=Kapi mej mard chka
+login.users_logged_on={0} aysqan {1} mard ka kapi mej
+login.join_chat=Join {0}
+login.header.username=Makanun
+login.header.room=Senyak
+
+# logout screen
+logout.in_progress=Hima Duq durs eq galis. Xndrum enq spasel!
+logout.no_longer_on=Hima Duq Durs ekaq!. Husov em goh eq mer Tsarayutyunic!.
+
+# admin screen
+admin.login={0} Administrator
+admin.password=Gaghtnabar:
+
+admin.button.kick=Durs Hanel
+admin.button.init=Chshtel
+admin.button.remove=Hanel
+admin.error.incorrect_password=Sa Administratori Gaghtnabary CHE!
+
+# users
+users.all=Bolor Ogtvoghnery
+users.initializing=Bacvum e ...
+users.profile.title=Seghmeq aystegh vorpeszi tesneq informacia
+users.chat.title=Seghmeq aystegh vorpeszi arandznanaq
+# user
+user.logged_on={0} Nersum ka  {1}
+user.logged_off={0} Patrastvum e heranal meznic {1}
+user.left_room={0}gnac {1} ev mtav {2}
+user.entered_room={0}henc nor ners mtav {2}
+user.say_all={0} asec {1}
+user.say_private={0} qchpchum e {1} "{2}"
+user.timed_out={0} quny tarav ev gnac ankoghnum qnelu {1}
+
+# profile
+profile.title=Andznakn teghekutyun {0}
+profile.ip_address=IP Hascen
+profile.logged_on=Ners Mtav
+profile.last_action=Verjin gorcoghutyuny
+profile.written_messages=Grvac Haghordagrutyunnery
+profile.close=Pakel
+
+# rooms
+rooms.max_limit_reached=Chem Karoghanum steghcel nor Senyak\n\nDzez chi tuylatrvum vorpeszi duq steghceq Arandznasenyakner. \nDzez hamar sahmanvac  {0} jamanky sparvec. Dzez xorhurd enq talis kapnvel\n administratori het ({1}) ev zekuceq ays\nsxali masin.
+rooms.name_not_allowed=Dzer koghmic mutqagrvac bary chi tuylatrvum. Xndrum enq mutqagrel aynpisi anun\nvoric chka ays pahin {0}.
+
+typing_too_fast=Duq shat arag eq mutqagrum. Xndrum enq spasel, heto nor Mutqagrel.
+you_have_been_logged_out=Duq Durs ekaq Chatic.
+
+# private chat
+private.title=Arandznazruyc irenc michev {0} and {1}
+
+# help
+help.title=Shtap Ognutyun
+help.commands=Ays toghy dzez cuyc kta hnaravor hramannery
+help.command.bold=&lt;b&gt; ev &lt;/b&gt; to surround <b>hast</b> text.
+help.command.italic=&lt;i&gt; ev &lt;/i&gt; to surround <i>shegh</i> text.
+help.command.underline=&lt;u&gt; and &lt;/u&gt; to surround <u>yndgcvac</u> text.
+help.command.date=&lt;date&gt; Mutqagrel chisht amis amsativy.
+help.command.time=&lt;time&gt; mutqagrel chisht jamanaky.
+help.command.datetime=&lt;datetime&gt; Mutqagrel chisht amsativn u jamanaky.
+help.symbols=Vorosh simvolner ogtagorcvel en ogtvoghnerin nerc mtcnelu hamar.
+help.symbols.log_in=A <img border="0" src="images/new.gif" width="9" height="9" alt="new"> Cuyc e Taliv vor ogtagorcoghy Online rejimum e.
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> Cuyc e talis vor ogtagorcoghy anjatvac e.
+help.hint=Pakel:
+help.hint.refresh=Karogh eq seghmel Enter seghmakin ejy tarmacnelu hamar.
+help.smilies=Patkerner:
+help.smilies.link=Seghmeq aystegh vorpeszi tesneq hnaravor Patkernery.
+
+# smilies
+smilies.title=Patkerner
+smilies.description=erb mutqagrum eq hatuk sikvol vory nshanakum e NKAR, apa ayd jamanak avtomat ayn poxarinvum e nkarov.
+smilies.hung_over=Hognac
+smilies.smile=Jpit
+smilies.clown=Tsaghracu
+smilies.frown=Hivand
+smilies.wink=Xmac
+smilies.angry=Jghayn
+smilies.devil=Satanayakan
+smilies.big_grin=Mec kanach
+smilies.oh=De knereq eli
+smilies.cheeky=ynkerakan
+smilies.tongue=ughaki
+
+# colors
+colors.none=None
+colors.black=Sev
+colors.red=Karmir
+colors.green=Kanach
+colors.blue=Kapuyt
+
+# errors
+error.maximum_users_reached=TTuylatrvac ogtvoghneri qanaky lracvac e. Duq cheq karogh mtnel ays pahin.
+error.missing_username=Mutqagreq cackanun ners mtneluc araj.
+error.username_in_use=Duq cheq karogh vercne ays cackanuny, qani vor mek urishy arden ayn vercrel e.
+error.invalid_username=Dzer cackanvan mej kan tarer voronq argelvac en ogtagorcel. Xndrum enq yntrel mek urishy.
+error.username_blocked=Duq cheq karogh mutq gorcel ays cackanunov.
+error.username_length_exceeded=Cackanuny chi geradasvelu {0} simvolic.
+

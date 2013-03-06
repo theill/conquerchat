@@ -1,0 +1,118 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Magi -- magi@dopbike.com -- http://www.dopbike.com
+# ConquerChat Version: 	4.2
+# Date: 				2003/2/14
+# Language: 			Croatian (hr)
+# 
+
+# headers
+users.title=Online korisnici
+rooms.title=Sobe
+message.title=Unesite Vašu poruku
+
+# buttons
+button.login=Ulaz
+button.login.title=Ulaz u sobu
+button.send=Pošalji
+button.send.title=Pošalji poruku
+button.help=Pomoæ
+button.help.title=Otvara prozor za pomoæ
+button.logout=Izadji
+button.logout.title=Izlaz iz sobe
+button.add=Dodaj
+button.add.title=Dodavanje nove sobe
+
+# login screen
+login.username=Nick:
+login.users_online=Online korisnici
+login.no_users_online=Trenutno nitko nije ulogiran
+login.users_logged_on={0} korisnik/a od dozvoljenih {1} je trenutno ulogiran/o
+login.join_chat=Udji u {0}
+login.header.username=Nick
+login.header.room=Soba
+
+# logout screen
+logout.in_progress=Izbacujem Vas iz sobe. Prièekajte malo!
+
+# admin screen
+admin.login={0} administracija
+admin.password=Lozinka:
+
+admin.button.kick=NAPOLJE!
+admin.button.init=Osvježi!
+admin.button.remove=Izbriši!
+admin.error.incorrect_password=Ovo nije lozinka administratora.
+
+# users
+users.all=Svi korisnici
+users.initializing=Osvježavam...
+
+# user
+user.logged_on=Korisnik {0} je ušao/la u sobu u {1}
+user.logged_off=Korisnik {0} je odluèio/la nas napustiti u {1}
+user.left_room={0} je napustio/la sobu {1} i otišao/la u sobu {2}
+user.entered_room={0} je upravo ušao/la u sobu {2}
+user.say_all={0} kaže {1}
+user.say_private={0} šapuæe {1} na uho "{2}"
+
+# profile
+profile.title=Profil za {0}
+profile.ip_address=IP Adresa
+profile.logged_on=Ulogiran/a
+profile.last_action=Posljednja akcija
+profile.written_messages=Pisane poruke
+profile.close=Zatvori
+
+# rooms
+rooms.max_limit_reached=Greška pri dodavanju nove sobe.\n\nNemate dozvolu za dodavanje tolikog broja soba. \nLimit od {0} je dostignut. Možda želite da kontaktirate\nwebmaster-a ({1}) i pitate za poveèanje\novog broja.
+
+typing_too_fast=Šaljete poruke prebrzo. Prièekajte trenutak, a zatim probajte ponovo.
+you_have_been_logged_out=Izašli ste sa chat-a.
+
+# private chat
+private.title=Privatni razgovor izmedju {0} i {1}
+
+# help
+help.title=Mini pomoæ
+help.commands=Ova Vam lista daje pregled raspoloživih opcija.
+help.command.bold=&lt;b&gt; i &lt;/b&gt; da napišete <b>podebljani</b> tekst.
+help.command.italic=&lt;i&gt; i &lt;/i&gt; da napišete tekst <i>u koso</i>.
+help.command.underline=&lt;u&gt; i &lt;/u&gt; da napišete <u>podvuèeni</u> tekst.
+help.command.date=&lt;date&gt; ukljuèuje trenutni datum.
+help.command.time=&lt;time&gt; ukljuèuje trenutno vrijeme.
+help.command.datetime=&lt;datetime&gt; ukljuèuje trenutni datum i vrijeme.
+help.symbols=Ovi simboli se koriste da se prikažu detalji o korisnièkom ulazu i izlazu sa chat-a.
+help.symbols.log_in=<img border="0" src="images/new.gif" width="9" height="9" alt="new"> pokazuje da je korisnik ušao.
+help.symbols.log_out=<img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> pokazuje da je korisnik izašao.
+help.hint=Prijedlog:
+help.hint.refresh=Pošaljite praznu poruku da osvježite prozor trenutno.
+help.smilies=Smilie:
+help.smilies.link=Kliknite ovde da vidite moguæe Smilie.
+
+# smilies
+smilies.title=Smilie
+smilies.description=Kada ukucavate specijalne karaktere poznate kao smilies, oni æe biti zamjenjeni sa pravim slikicama kao što je prikazano u donjoj listi.
+smilies.hung_over=Hung Over
+smilies.smile=Smješak
+smilies.clown=Klaun
+smilies.frown=Frown
+smilies.wink=Wink
+smilies.angry=Ljutit
+smilies.devil=Djavolak
+smilies.big_grin=Big Grin
+smilies.oh=Oh!
+smilies.cheeky=Cheeky
+smilies.tongue=Plazim se
+
+# errors
+error.maximum_users_reached=Maksimalni broj korisnika je dostignut. Trenutno Vam nije omoguæeno da se ulogirate.
+error.missing_username=Morate upisati NICK prije nego udjete u sobu.
+error.username_in_use=Ne možete koristiti taj NICK, jer ga veæ drugi korisnik koristi.
+error.invalid_username=Vaš NICK sadrži nedozvoljene karaktere. Molim Vas, izaberite drugi.
+error.username_blocked=Ne možete se ulogirati sa ovim NICK-om.
+error.username_length_exceeded=Broj karaktera u NICK-u ne smije biti veæi od {0}.

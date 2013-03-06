@@ -1,0 +1,139 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Peter Theill
+# ConquerChat Version: 	4.4
+# Date: 				3/5/2004
+# Language: 			Italiano (it)
+# 
+
+# general application settings
+application.name=ConquerChat
+application.version=4.4
+application.webmaster_email=your@domain.com
+
+
+# headers
+users.title=Utenti
+rooms.title=Stanze
+message.title=Inserisci il tuo messaggio
+
+# buttons
+button.login=login
+button.login.title=Entra nella chat
+button.send=invia
+button.send.title=Invia il messaggio
+button.help=aiuto
+button.help.title=Apre la finestra di aiuto
+button.logout=logout
+button.logout.title=Esci dalla chat
+button.add=aggiungi
+button.add.title=Aggiungi una nuova stanza
+
+# login screen
+login.username=Username:
+login.password=Password:
+login.users_online=Utenti Online
+login.no_users_online=Non ci sono utenti attualmente connessi
+login.users_logged_on={0} di {1} utenti attualmente connessi
+login.join_chat=Entra in {0}
+login.header.username=Username
+login.header.room=Stanza
+
+# logout screen
+logout.in_progress=Disconnessione in corso. Attendere per favore!
+logout.no_longer_on=Sei uscito dalla chat. Ci auguriamo che la tua permanenza sia stata gradevole.
+
+# admin screen
+admin.login={0} Administration
+admin.password=Password:
+
+admin.button.kick=Caccia fuori!
+admin.button.init=Inizializza!
+admin.button.remove=Rimuovi
+admin.error.incorrect_password=Password di amministrazione errata!
+
+# users
+users.all=Tutti gli utenti
+users.initializing=Caricamento...
+users.profile.title=Clicca qui per vedere il profilo
+users.chat.title=Clicca qui per avviare una chat privata
+
+# user
+user.logged_on={0} è entrato il {1}
+user.logged_off={0} ha deciso di lasciarci il {1}
+user.left_room={0} è uscito da {1} ed è entrato in {2}
+user.entered_room={0} è appena entrato in {2}
+user.say_all={0} dice {1}
+user.say_private={0} sussurra a {1} "{2}"
+user.timed_out={0} si è addormentato ed è stato messo a letto il {1}
+
+# profile
+profile.title=Profilo di {0}
+profile.ip_address=Indirizzo IP
+profile.logged_on=Connesso il 
+profile.last_action=Ultima Azione
+profile.written_messages=Messaggi Inviati
+profile.close=Chiudi
+
+# rooms
+rooms.max_limit_reached=Errore nella creazione della nuova stanza\n\nNon ti è permesso aggiungere ulteriori stanze in questa chat. Il\nlimite di {0} è stato raggiunto. Se vuoi, puoi contattare il webmaster ({1}) per chiedergli di aumentare il valore limite.
+rooms.name_not_allowed=Il nome inserito non è permesso. Devi inserire un nome\nnella forma {0}.
+
+typing_too_fast=Stai scrivendo troppo in fretta. Aspetta un secondo e riprova.
+you_have_been_logged_out=Sei stato disconnesso dalla chat.
+
+# private chat
+private.title=Chat privata tra {0} e {1}
+
+# help
+help.title=Aiuto Rapido
+help.commands=Questa lista mostra esempi sull'utilizzo dei comandi della chat.
+help.command.bold=&lt;b&gt; e &lt;/b&gt; per rafforzare in <b>grassetto</b> il testo.
+help.command.italic=&lt;i&gt; e &lt;/i&gt; per mostrare <i>inclinato</i> il testo.
+help.command.underline=&lt;u&gt; e &lt;/u&gt; per rendere <u>sottolineato</u> il testo.
+help.command.date=&lt;date&gt; inserisce la data attuale.
+help.command.time=&lt;time&gt; inserisce l'ora attuale.
+help.command.datetime=&lt;datetime&gt; inserisce la data e l'ora corrente.
+help.symbols=Alcuni simboli sono utilizzati per indicare gli utenti connessi, disconnessi, etc.
+help.symbols.log_in=A <img border="0" src="images/new.gif" width="9" height="9" alt="new"> indica che l'utente è connesso.
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> indica che l'utente è stato disconnesso.
+help.hint=Suggerimenti:
+help.hint.refresh=Inserisci un messaggio vuoto per ricaricare la finestra della discussione immediatamente.
+help.smilies=Smilies:
+help.smilies.link=Clicca qui per vedere le faccine disponibili.
+
+# smilies
+smilies.title=Faccine
+smilies.description=Quando digiti alcune combinazioni di caratteri riconosciuti come faccine, questi verranno rimpiazzati dalle immagini relative così come mostrato nella lista seguente.
+smilies.hung_over=Sbronzo
+smilies.smile=Sorriso
+smilies.clown=Clown
+smilies.frown=Accigliato
+smilies.wink=Occhiolino
+smilies.angry=Arrabbiato
+smilies.devil=Diavolo
+smilies.big_grin=Grande sorriso
+smilies.oh=Oh!
+smilies.cheeky=Impertinente
+smilies.tongue=Lingua
+
+# colors
+colors.none=Nessuno
+colors.black=Nero
+colors.red=Rosso
+colors.green=Verde
+colors.blue=Blu
+
+# errors
+error.maximum_users_reached=Il limite massimo di utenti è stato raggiunto. Per questa volta non ti è permesso entrare.
+error.missing_username=Devi digitare lo username prima di accedere alla chat.
+error.missing_password=Devi digitare la password prima di accedere alla chat.
+error.login_error=Login errato.
+error.username_in_use=Non è possibile utilizzare questo username finchè è utilizzato da un altro utente attualmente in chat.
+error.invalid_username=Il tuo username contiene caratteri non validi.
+error.username_blocked=Non ti è permesso connetterti con questo username.
+error.username_length_exceeded=Lo username supera il limite massimo di {0} caratteri.

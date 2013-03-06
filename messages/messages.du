@@ -1,0 +1,123 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Arjan van Beijnum / whazzup
+# ConquerChat Version: 	4.3
+# 
+
+# headers
+users.title=Gebruikers
+rooms.title=Ruimtes
+message.title=Voer uw bericht in
+
+# buttons
+button.login=inloggen
+button.login.title=Inloggen op chat
+button.send=verzenden
+button.send.title=Verzend bericht
+button.help=help
+button.help.title=Opent Help-window
+button.logout=uitloggen
+button.logout.title=Verlaten van chat
+button.add=toevoegen
+button.add.title=Voegt nieuwe chatruimte toe
+
+# login screen
+login.username=Gebruikersnaam:
+login.users_online=Actieve gebruikers
+login.no_users_online=Er zijn geen actieve gebruikers
+login.users_logged_on={0} van {1} gebruikers zijn ingelogd
+login.join_chat=Aanmelden {0}
+login.header.username=Gebruikersnaam
+login.header.room=Ruimte
+
+# logout screen
+logout.in_progress=Aan het uitloggen. Even geduld!
+
+# admin screen
+admin.login={0} Administratie
+admin.password=Wachtwoord:
+
+admin.button.kick=Eruit
+admin.button.init=Initializeer!
+admin.button.remove=Verwijder
+admin.error.incorrect_password=Verkeerd wachtwoord.
+
+# users
+users.all=Alle gebruikers
+users.initializing=Initializeren...
+
+# user
+user.logged_on={0} is ingelogd op {1}
+user.logged_off={0} heeft ons verlaten op {1}
+user.left_room={0} verliet {1} en ging naar binnen bij {2}
+user.entered_room={0} komt zojuist binnen {2}
+user.say_all={0} zegt {1}
+user.say_private={0} fluistert {1} "{2}"
+user.timed_out={0} timed out op: {1}
+
+# profile
+profile.title=Profiel voor {0}
+profile.ip_address=IP Adres
+profile.logged_on=Ingelogd om
+profile.last_action=Laatste acyie
+profile.written_messages=Aantal berichten
+profile.close=Sluiten
+
+# rooms
+rooms.max_limit_reached=Fout bij toevoegen ruimte\n\nHet is niet toegestaan om meer ruimten toe te voegen. Het aantal van {0} is bereikt.\n U kunt contact opnemen met de\n webmaster ({1}) om dit aantal te verhogen.
+
+typing_too_fast=Je typt te snel. Wacht een seconde en probeer opnieuw.
+you_have_been_logged_out=U bent uitgelogd.
+
+# private chat
+private.title=Privé chat tussen {0} en {1}
+
+# help
+help.title=Snelle Help
+help.commands=Deze lijst geeft een overzicht van de beschikbare commando's.
+help.command.bold=&lt;b&gt; en &lt;/b&gt; voor <b>vetgedrukte</b> text.
+help.command.italic=&lt;i&gt; en &lt;/i&gt; voor <i>schruingeschreven</i> text.
+help.command.underline=&lt;u&gt; en &lt;/u&gt; voor <u>onderstreepte</u> text.
+help.command.date=&lt;date&gt; invoegen huidige datum.
+help.command.time=&lt;time&gt; invoegen huidige tijd.
+help.command.datetime=&lt;datetime&gt; invoegen huidige datum en tijd.
+help.symbols=Sommige symbolen worden gebruikt bij het inloggen en uitloggen van gebruikers.
+help.symbols.log_in=<img border="0" src="images/new.gif" width="9" height="9" alt="new"> Een nieuwe gebruiker is ingelogd.
+help.symbols.log_out=<img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> Een gebruiker is uitgelogd.
+help.hint=Hint:
+help.hint.refresh=Typ een leeg bericht om het scherm direct te verversen.
+help.smilies=Gezichtjes:
+help.smilies.link=Klik hier om de beschikbare gezichtjes te tonen.
+
+# smilies
+smilies.title=Gezichtjes
+smilies.description=Als een speciale reeks van tekens voor gezichtjes wordt gebruikt, dan wordt deze vervangen door de echte plaatjes zoals te zien in de onderstaande lijst..
+smilies.hung_over=Kater
+smilies.smile=Lachen
+smilies.clown=Clown
+smilies.frown=Fronzend
+smilies.wink=Knipoog
+smilies.angry=Boos
+smilies.devil=Duivels
+smilies.big_grin=Grote grijns
+smilies.oh=Oh!
+smilies.tongue=Tong uitsteken
+
+# colors
+colors.none=Geen
+colors.black=Zwart
+colors.red=Rood
+colors.green=Groen
+colors.blue=Blauw
+
+# errors
+error.maximum_users_reached=Het maximum aantal gebruikers is bereikt. Het is op dit moment niet toegestaan om in te loggen.
+error.missing_username=U moet een gebruikersnaam opgeven.
+error.username_in_use=Gebruikersnaam is al in gebruik
+error.invalid_username=Gebruikersnaam bevat invalide karakters.
+error.username_blocked=Gebruikersnaam kan niet gebruikt worden.
+error.username_length_exceeded=Gebruikersnaam mag niet meer dan {0} karakters bevatten.

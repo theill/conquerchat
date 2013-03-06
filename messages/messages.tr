@@ -1,0 +1,127 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Cihan YILMAZ (cyilmaz@koyuncu.com.tr)
+# ConquerChat Version: 	4.3
+# Date: 				3/7/2003
+# Language: 			Turkish (tr)
+# 
+
+# headers
+users.title=Kullanýcýlar
+rooms.title=Odalar
+message.title=Mesajinizi Yaziniz
+
+# buttons
+button.login=giriþ
+button.login.title=Þuan Chattesiniz
+button.send=gönder
+button.send.title=Mesajý Gönder
+button.help=yardim
+button.help.title=Açilan - Yardým Penceresi
+button.logout=cikis
+button.logout.title=Sohbetten Çýkýþ Yaptýnýz.
+button.add=ekle
+button.add.title=Yeni Oda Ekle
+
+# login screen
+login.username=Nickname:
+login.users_online=Online Kullanýcýlar
+login.no_users_online=Suan hiç online kullanýcý bulunmuyor.
+login.users_logged_on={0} ve {1} suan odalarda bulunuyor
+login.join_chat=Giris {0}
+login.header.username=Kullanýcý Adý
+login.header.room=Odalar
+
+# logout screen
+logout.in_progress=Suan çýkýþýnýz yapiliyor. Lütfen bekleyiniz.
+logout.no_longer_on=Uzunca bir süre giris yapmadiniz. Cikisiniz yapildi sizi daha sonrada chat odalarimizda görmeyi umuyoruz.
+
+# admin screen
+admin.login={0} Admin Paneli
+admin.password=Sifreniz:
+
+admin.button.kick=Kick
+admin.button.init=Deðiþiklikleri Yenile
+admin.button.remove=Sil
+admin.error.incorrect_password=Girdiginiz sifre admin sifresi degil
+
+# users
+users.all=Tüm Kullanýcýlar
+users.initializing=Giris Yapiliyor...
+
+# user
+user.logged_on={0} giris yapti zaman : {1}
+user.logged_off={0} odadan ayrildi zaman : {1}
+user.left_room={0} cikis {1} ve giris {2} yapildi
+user.entered_room={0} giris yapti {2}
+user.say_all={0} : {1}
+user.say_private={0} Özel mesaj gönderdi {1} "{2}"
+user.timed_out={0} uzun bir süredir mesajlaþmýyor. Chatten ayrýldý. {1}
+
+# profile
+profile.title=Kullanici Profili {0}
+profile.ip_address=IP Adresi
+profile.logged_on=Giris
+profile.last_action=Son Giris
+profile.written_messages=Yazdigi Mesajlar
+profile.close=Kapat
+
+# rooms
+rooms.max_limit_reached=Oda eklenirken hata olustu\n\nChat bölümüne daha fazla oda ekleyemezsiniz. Limit\n ve {0} suan doldu. Lütfen site \n webmasteri ile kontak kurun. ({1}) girdiginiz kelimeler\nhave suan silindi..
+
+typing_too_fast=Flood yapmaya basladiniz. Lutfen 1 dakika bekleyerek tekrar deneyiniz.
+you_have_been_logged_out=Suan chat odalarýndan çýktýnýz.
+
+# private chat
+private.title=Gizli chat {0} ve {1}
+
+# help
+help.title=Kolay Yardým
+help.commands=Suan listede acýk kodlar bulunmakta
+help.command.bold=&lt;b&gt; arasý &lt;/b&gt; yazarsanýz <b>kalýn</b> yazý oluþur.
+help.command.italic=&lt;i&gt; arasý &lt;/i&gt; yazarsanýz <i>yatay</i> yazý oluþur.
+help.command.underline=&lt;u&gt; arasý &lt;/u&gt; yazarsanýz <u>altý çizgili</u> yazý oluþur.
+help.command.date=&lt;date&gt; þuanki tarihi gösterir.
+help.command.time=&lt;time&gt; þuanki zamaný gösterir.
+help.command.datetime=&lt;datetime&gt; þuanki tarih ve zamaný gösterir.
+help.symbols=Aþaðýdaki semboller giriþ-çýkýþlarý anlatan karakterlerdir.
+help.symbols.log_in=A <img border="0" src="images/new.gif" width="9" height="9" alt="new"> kullanýcýnýn giriþ yaptýðýný gösterir
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> kullanýcýnýn çýkýþ yaptýðýný gösterir
+help.hint=Örnek:
+help.hint.refresh=Boþ mesaj yazarak pencereyi refresh yapamazsýnýz.
+help.smilies=Gülücükler:
+help.smilies.link=Buraya týklayarak aktif gülücükleri görebilirsiniz.
+
+# smilies
+smilies.title=Gülücükler
+smilies.description=Yazdýðýnýz bölümdeki cümlelerin arasýna ufak þekilli imajlar eklemek için.
+smilies.hung_over=Çok Aç
+smilies.smile=Gülücük
+smilies.clown=Palyaço
+smilies.frown=Üzgün
+smilies.wink=Göz Kýrpma
+smilies.angry=Öfkeli
+smilies.devil=Þeytan
+smilies.big_grin=Kahkaha
+smilies.oh=Oh!
+smilies.cheeky=Yüzsüz
+smilies.tongue=Dil Çýkartma
+
+# colors
+colors.none=Yok
+colors.black=Siyah
+colors.red=Kýrmýzý
+colors.green=Yeþil
+colors.blue=Mavi
+
+# errors
+error.maximum_users_reached=Þuan sohbet bölümünde çok fazla kullanýcý var. Lütfen daha sonra tekrar deneyiniz.
+error.missing_username=Bir Nickname yazmadan chat yapmaya baþlayamazsýnýz.
+error.username_in_use=Bu nick suan sohbet odasýnda bulunuyor. Lütfen baþka bir nick kullanýnýz.
+error.invalid_username=Nick'de belirlenemeyen karakterler var. Lütfen düzelterek tekrar deneyiniz.
+error.username_blocked=Bu nick ile giriþ yapamazsýnýz.
+error.username_length_exceeded=Nicknameniz maximuým {0} karakter olmalýdýr.

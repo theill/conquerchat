@@ -1,0 +1,118 @@
+#
+# Toutes les entêtes utilisées dans ConquerChat. Vous ne pouvez pas modifier 
+# le texte du côté gauche des (=) car ce sont les commandes utilisées pour 
+# afficher les textes localisés. {0}, {1}, ..., {n} seront remplacés par un 
+# contenu dynamique quand le message apparaîtra.
+# 
+# Traduction par:	Geoffray Schmetz (Mail : gs@esi-informatique.com) - (MSN : euclectus@hotmail.com)
+# Version de ConquerChat : 	4.2
+# Date : 			22/11/2002
+# Langage : 		Français (fr)
+# 
+
+# entêtes
+users.title=Utilisateurs
+rooms.title=Salons
+message.title=Entrez votre message
+
+# bouttons
+button.login=Connexion
+button.login.title=Se connecter au chat
+button.send=Envoyer
+button.send.title=Envoi le message
+button.help=Aide
+button.help.title=Ouvrir la fenêtre d'aide
+button.logout=Quitter
+button.logout.title=Se déconnecter du chat
+button.add=Créer
+button.add.title=Ajouter un nouveau salon
+
+# page de connexion
+login.username=Nom d'utilisateur :
+login.users_online=Utilisateur(s) en ligne :
+login.no_users_online=Il n'y a actuellement pas d'utilisateur(s) connecté(s)
+login.users_logged_on={0} of {1} utilisateur(s) actuellement connecté(s)
+login.join_chat=Rejoindre {0}
+login.header.username=Nom d'utilisateur
+login.header.room=Salon
+
+# page de déconnexion
+logout.in_progress=Déconnexion en cours, veuillez attendre SVP !
+
+# page d'administration
+admin.login={0} Administration
+admin.password=Mot de passe :
+
+admin.button.kick=Kicker
+admin.button.init=Initialiser !
+admin.button.remove=Enlever
+admin.error.incorrect_password=Ce n'est pas le mot de passe de l'administrateur
+
+# utilisateurs
+users.all=Tous les utilisateurs
+users.initializing=Initialisation...
+
+# utilisateur
+user.logged_on={0} connecté à {1}
+user.logged_off={0} a décidé de nous quitter à {1}
+user.left_room={0} quitté {1} et entré {2}
+user.entered_room={0} vient juste d'entrer {2}
+user.say_all={0} dit {1}
+user.say_private={0} message privé à {1} "{2}"
+
+# profile
+profile.title=Profile de {0}
+profile.ip_address=Adresse IP
+profile.logged_on=Connecté à
+profile.last_action=Dernière action
+profile.written_messages=Messages écrits
+profile.close=Fermer
+
+# salons
+rooms.max_limit_reached=Erreur dans la création d'un salon\n\nVous ne pouvez plus créer de salons dans ce chat. La\nlimite de {0} a été atteinte. Vous pourriez contacter le\n webmaster ({1}) dans le but d'\naugmenter le nombre limite de salons.
+
+typing_too_fast=Vous écrivez trop vite ; attendez une seconde et recommencer.
+you_have_been_logged_out=Vous avez été déconnecté du chat.
+
+# chat privé
+private.title=Chat privé entre {0} et {1}
+
+# aide
+help.title=Aide rapide
+help.commands=Ceci vous donne un aperçu des commandes accessibles.
+help.command.bold=&lt;b&gt; and &lt;/b&gt; pour mettre le texte <b>en gras</b>.
+help.command.italic=&lt;i&gt; and &lt;/i&gt; pour mettre le texte <i>en italique</i>.
+help.command.underline=&lt;u&gt; and &lt;/u&gt; pour mettre le texte <u>en souligné</u>.
+help.command.date=&lt;date&gt; insert la date courrante
+help.command.time=&lt;time&gt; insert l'heure courrante
+help.command.datetime=&lt;datetime&gt; insert la date et l'heure courantes.
+help.symbols=Certains symbols sont utilisés pour indiquer que utilisateurs se connectent, se déconnectent, etc.
+help.symbols.log_in=A <img border="0" src="images/new.gif" width="9" height="9" alt="new"> indique qu'un utilisateur s'est connecté.
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> indique qu'un utilisateur s'est déconnecté.
+help.hint=Astuce :
+help.hint.refresh=Tapez un message vide pour rafraîchir la fenêtre immédiatement.
+help.smilies=Smilies :
+help.smilies.link=Cliquer ici pour voir les smilies disponibles.
+
+# smilies
+smilies.title=Smilies
+smilies.description=Quand vous tapez une suite précise de caractères, celle-ci sera remplacée par une image Smiley dont la liste est reprise ci-dessous.
+smilies.hung_over=Hung Over
+smilies.smile=Sourire
+smilies.clown=Clown
+smilies.frown=Mécontent, froncement des sourcils
+smilies.wink=Clin d'oeil
+smilies.angry=Fâché
+smilies.devil=Diable
+smilies.big_grin=Grand sourire
+smilies.oh=Stupéfait
+smilies.cheeky=Insolent
+smilies.tongue=Langue
+
+# erreurs
+error.maximum_users_reached=Le nombre maximum de connexions a été atteints, merci de réessayer plus tard.
+error.missing_username=Vous devez entrer un nom pour pouvoir vous connecter.
+error.username_in_use=Ce nom est déjà en cours d'utilisation, merci d'en choisir un autre.
+error.invalid_username=Votre nom d'utilisateur contient des caractères non permis, merci d'en choisir un autre
+error.username_blocked=Vous ne pouvez pas vous connecter avec ce nom d'utilisateur.
+error.username_length_exceeded=Le nom d'utilisateur ne peut pas dépasser {0} caractères.

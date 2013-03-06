@@ -1,0 +1,127 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		[_TRIN_] - Trin@hpfm.cz
+# ConquerChat Version: 	4.3
+# Date: 				20/03/2003
+# Language: 			Czech (cz)
+# 
+
+# headers
+users.title=Uživatelé
+rooms.title=Místnosti
+message.title=Zadej svou zprávu
+
+# buttons
+button.login=Pøihlásit
+button.login.title=Logs into chat
+button.send=Odeslat
+button.send.title=Poslat zprávu
+button.help=Nápovìda
+button.help.title=Otevøe se ono s Nápovìdou
+button.logout=Odhlásit
+button.logout.title=Logs out of chat
+button.add=Pøidat
+button.add.title=Pøidat novou Místnost
+
+# login screen
+login.username=Pøezdívka:
+login.users_online=On-Line uživatele
+login.no_users_online=Žádní uživatelé nejsou pøihlášeni
+login.users_logged_on={0} z {1} uživatelù je pøihlášeno
+login.join_chat=Vstoupit do {0}
+login.header.username=Pøezdívka
+login.header.room=Místnost
+
+# logout screen
+logout.in_progress=Odhlášení ze systému - prosím vyèkejte
+logout.no_longer_on=Již nejste prihlášeni.
+
+# admin screen
+admin.login={0} Admin chatu
+admin.password=Heslo:
+
+admin.button.kick=Vykopnout
+admin.button.init=Vymazat - Znovunaètení!
+admin.button.remove=Odstranit
+admin.error.incorrect_password=Tohle není administrátorské heslo.
+
+# users
+users.all=Poslat všem
+users.initializing=Inicializuji...
+
+# user
+user.logged_on={0} Pøihlášen v {1}
+user.logged_off={0} Odhlášen v {1}
+user.left_room={0} Odešel z místnosti {1} a vstoupil do místnosti {2}
+user.entered_room={0} vstoupil do místnosti {2}
+user.say_all={0} øíká: {1}
+user.say_private={0} šeptá {1} "{2}"
+user.timed_out={0} usnul a nejspíš spí u klávesnice {1}
+
+# profile
+profile.title=Profil pro {0}
+profile.ip_address=IP adresa
+profile.logged_on=Dotyèný se pøihlásil
+profile.last_action=Poslední akce
+profile.written_messages=Napsané zprávy
+profile.close=Zavøít
+
+# rooms
+rooms.max_limit_reached=Chyba v pøidání nové Místnosti\n\nNemáš povoleno pøídávat další Místnosti v tomto chatu. Mùžeš kontaktovat \n webmastera ({1}) tohoto chatu za úèelem\n zvýšení poètu vytvoøených místností v tomto chatu.
+
+typing_too_fast=Píšete pøíliš rychle. Poèkejte sekundu a zkuste to znovu.
+you_have_been_logged_out=Již nejste pøihlášen v chatu.
+
+# private chat
+private.title=Soukromé povídání mezi {0} a {1}
+
+# help
+help.title=Rychlá Nápovìda
+help.commands=Tohle je seznam všech pøíkazù, které lze v chatu použít.
+help.command.bold=&lt;b&gt; a &lt;/b&gt; pro psaní <b>tlustého</b> textu.
+help.command.italic=&lt;i&gt; a &lt;/i&gt; pro psaní <i>kolmého</i> textu.
+help.command.underline=&lt;u&gt; a &lt;/u&gt; pro psaní <u>podtrženého</u> textu.
+help.command.date=&lt;date&gt; vložit aktualní datum.
+help.command.time=&lt;time&gt; vložit aktuální èas.
+help.command.datetime=&lt;datetime&gt; vložit aktuální datum a èas.
+help.symbols=Nìkteré symboly sou používány pro oznaèování uživatelù pøihlášených do chatu, odhlášených atd.
+help.symbols.log_in=A <img border="0" src="images/new.gif" width="9" height="9" alt="new"> signalizuje uživatele pøihlášené do chatu.
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> signalizuje uživatele odhlášené z chatu.
+help.hint=Další:
+help.hint.refresh=Napsání prázdné zprávy pro rychlé znovunaètení stránky chatu.
+help.smilies=Smajlíci:
+help.smilies.link=Klikni zde jestli chceš vidìt dostupné smajlíky.
+
+# smilies
+smilies.title=Smajlíci
+smilies.description=Kdyz použijete speciální znaky které vidíte dole, tak se tyto speciální znaky zmìní v chatu na grafické smajlíky.
+smilies.hung_over=Sem hotovej 
+smilies.smile=Smajlik
+smilies.clown=Prase
+smilies.frown=Smutný
+smilies.wink=Mrkající
+smilies.angry=Naštvaný
+smilies.devil=Ïábel
+smilies.big_grin=Velký úšklebek
+smilies.oh=Oh!
+smilies.cheeky=Drzý
+smilies.tongue=Jazyk
+
+# colors
+colors.none=Žádná
+colors.black=Èerná
+colors.red=Èervená
+colors.green=Zelená
+colors.blue=Modrá
+
+# errors
+error.maximum_users_reached=Maximální poèet uživatelù byl pøekroèen. Nemùžete se v tuto chvíli pøipojit.
+error.missing_username=Musíš napsat svoji pøezdívku, než zaèneš chatovat.
+error.username_in_use=Tuto pøezdívku již používá nìkdo jiný na chatu - prosím zvol si jinou.
+error.invalid_username=Vaše pøezdívka obsahuje nepovolené znaky - odstraòte je.
+error.username_blocked=Nelze se pøihlásit s tímto uživatelským jménem.
+error.username_length_exceeded=Pøzdívka nesmí pøesahovat {0} znakù.

@@ -1,0 +1,158 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Peter Theill
+# ConquerChat Version: 	4.4
+# Date: 				3/7/2003
+# Language: 			English (en)
+# 
+
+#
+# general application settings
+#
+
+#
+# Name of this chat application. If you want to use it on your own site,
+# you probably wants to give it a different name, e.g. 'Lucky Chat'. By
+# changing this value, all text strings in chat will be changed.
+# 
+# Default Value: "ConquerChat On·Line"
+#
+application.name=ConquerChat On·Line
+
+#
+# Version of this chat application.
+#
+application.version=4.4
+
+#
+# Contains the e-mail address for the web administrator for this web site.
+# If an error occurs or a user wants to send an email to the webmaster,
+# this email will be shown.
+# 
+# Default Value: "webmaster@yourdomain.com"
+#
+application.webmaster_email=webmaster@yourdomain.com
+
+
+# headers
+users.title=Users
+rooms.title=Rooms
+message.title=Enter your message
+
+# buttons
+button.login=login
+button.login.title=Logs into chat
+button.send=send
+button.send.title=Sends message
+button.help=help
+button.help.title=Opens Help-window
+button.logout=logout
+button.logout.title=Logs out of chat
+button.add=add
+button.add.title=Adds new room
+
+# login screen
+login.username=Username:
+login.users_online=Users Online
+login.no_users_online=No users are currently logged on
+login.users_logged_on={0} of {1} users currently logged on
+login.join_chat=Join {0}
+login.header.username=Username
+login.header.room=Room
+
+# logout screen
+logout.in_progress=Logging out in progress. Please hold on!
+logout.no_longer_on=You are no longer logged on. We hope you enjoyed your stay.
+
+# admin screen
+admin.login={0} Administration
+admin.password=Password:
+
+admin.button.kick=Kick
+admin.button.init=Initialize!
+admin.button.remove=Remove
+admin.error.incorrect_password=This is not the administrator password.
+
+# users
+users.all=All Users
+users.initializing=Initializing...
+users.profile.title=Click here to view profile
+users.chat.title=Click here to start a private chat
+
+# user
+user.logged_on={0} logged on at {1}
+user.logged_off={0} decided to leave us at {1}
+user.left_room={0} left {1} and entered {2}
+user.entered_room={0} just entered {2}
+user.say_all={0} says {1}
+user.say_private={0} whispers to {1} "{2}"
+user.timed_out={0} fell asleep and was put to bed at {1}
+
+# profile
+profile.title=Profile for {0}
+profile.ip_address=IP Address
+profile.logged_on=Logged On
+profile.last_action=Last Action
+profile.written_messages=Written Messages
+profile.close=Close
+
+# rooms
+rooms.max_limit_reached=Error adding new room\n\nYou are not allowed to add more rooms in this chat. The\nlimit of {0} has been reached. You may want to contact the\n webmaster ({1}) in order to\nhave this number increased.
+rooms.name_not_allowed=The entered name is not allowed. You need to enter a name\nmatching the pattern {0}.
+
+typing_too_fast=You are typing too fast. Wait a second then try again.
+you_have_been_logged_out=You have been logged out of the chat.
+
+# private chat
+private.title=Private chat between {0} and {1}
+
+# help
+help.title=Quick Help
+help.commands=This list gives you an overview of available commands.
+help.command.bold=&lt;b&gt; and &lt;/b&gt; to surround <b>bold</b> text.
+help.command.italic=&lt;i&gt; and &lt;/i&gt; to surround <i>italic</i> text.
+help.command.underline=&lt;u&gt; and &lt;/u&gt; to surround <u>underlined</u> text.
+help.command.date=&lt;date&gt; inserts current date.
+help.command.time=&lt;time&gt; inserts current time.
+help.command.datetime=&lt;datetime&gt; inserts current date and time.
+help.symbols=Some symbols are used to indicate users logging in, out, etc.
+help.symbols.log_in=A <img border="0" src="images/new.gif" width="9" height="9" alt="new"> indicates a user has logged in.
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> indicates a user has logged out.
+help.hint=Hint:
+help.hint.refresh=Type an empty message to refresh chat window immediately.
+help.smilies=Smilies:
+help.smilies.link=Click here to see available smilies.
+
+# smilies
+smilies.title=Smilies
+smilies.description=When typing in special characters known as smilies, these will be replaced by real images as shown in the list below.
+smilies.hung_over=Hung Over
+smilies.smile=Smile
+smilies.clown=Clown
+smilies.frown=Frown
+smilies.wink=Wink
+smilies.angry=Angry
+smilies.devil=Devil
+smilies.big_grin=Big Grin
+smilies.oh=Oh!
+smilies.cheeky=Cheeky
+smilies.tongue=Tongue
+
+# colors
+colors.none=None
+colors.black=Black
+colors.red=Red
+colors.green=Green
+colors.blue=Blue
+
+# errors
+error.maximum_users_reached=The maximum number of users have been reached. You are not allowed to login at this time.
+error.missing_username=You have to enter a username before starting to chat.
+error.username_in_use=You cannot use this username, since another person is using this already.
+error.invalid_username=Your username contains inappropriate characters. Please choose another one.
+error.username_blocked=You cannot log on with this username.
+error.username_length_exceeded=Username must not exceed {0} characters.

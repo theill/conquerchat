@@ -1,0 +1,136 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by:               Jorge Mendes (jmendes@major.com.br)
+# ConquerChat Version:          4.4
+# Date:                         7/7/2004
+# Language:                     Portuguese/Brazil (br)
+
+
+# general application settings
+application.name=ConquerChat
+application.version=4.4
+application.webmaster_email=seuemail@seudominio.com.br
+ 
+# headers
+users.title=Usuários
+rooms.title=Salas
+message.title=Digite sua mensagem
+ 
+# buttons
+button.login=entrar
+button.login.title=Usuário no chat
+button.send=envia
+button.send.title=Envia mensagem
+button.help=ajuda
+button.help.title=Abre janela de ajuda
+button.logout=sair
+button.logout.title=Sair do chat
+button.add=cria
+button.add.title=Cria nova sala
+ 
+# login screen
+login.username=Nome:
+login.users_online=Usuários Online
+login.no_users_online=Nenhum usuário ativo
+login.users_logged_on={0} de {1} usuários ativos
+login.join_chat=Participe do {0}
+login.header.username=Usuário
+login.header.room=Sala
+ 
+# logout screen
+logout.in_progress=Saindo do Chat. Um momento!
+logout.no_longer_on=Usuário não está mais ativo!
+ 
+# admin screen
+admin.login={0} Administração
+admin.password=Senha:
+ 
+admin.button.kick=Derruba
+admin.button.init=Inicializa!
+admin.button.remove=Remove
+admin.error.incorrect_password=Esta senha não é de Administrador.
+ 
+# users
+users.all=Todos
+users.initializing=Iniciando...
+users.profile.title=Clique aqui para perfil
+users.chat.title=Clique aqui para Chat particular
+
+# user
+user.logged_on={0} entrou em {1}
+user.logged_off={0} deixou a sala em  {1}
+user.left_room={0} saiu {1} e entrou na sala : {2}
+user.entered_room={0} acabou de entrar na sala : {2}
+user.say_all={0} disse: {1}
+user.say_private={0} msg particular {1} "{2}"
+user.timed_out={0} parou de TC e foi desativado às {1}
+ 
+# profile
+profile.title=Perfil do usuário {0}
+profile.ip_address=Endereço IP
+profile.logged_on=Entrou
+profile.last_action=Última ação
+profile.written_messages=Mensagens Escritas
+profile.close=Fechar
+ 
+# rooms
+rooms.max_limit_reached=Erro ao criar sala\n\nVocê não está autorizado a criar salas. O\nlimite de {0} foi alcançado. Entre em contato com \n webmaster ({1}) para poder\naumentar o número de salas.
+rooms.name_not_allowed=Nome informado não é permitido. Você deve informar um nome\npadrão {0}. 
+
+typing_too_fast=Você está digitando muito rápido. Espere alguns segundo e tente novamente.
+you_have_been_logged_out=Você foi desconectado do chat.
+ 
+# private chat
+private.title=Chat particular entre {0} e {1}
+ 
+# help
+help.title=Ajuda Rápida
+help.commands=Os seguintes comandos estão disponíveis na sala de chat.
+help.command.bold=&lt;b&gt; e &lt;/b&gt; e </b> deixa o texto em <b>negrito</b>.
+help.command.italic=&lt;i&gt; e &lt;/i&gt; deixa o texto em <i>itálico</i>.
+help.command.underline=&lt;u&gt; e &lt;/u&gt; deixa o texto <u>sublinhado</u>.
+help.command.date=&lt;date&gt; insere a data atual.
+help.command.time=&lt;time&gt; insere a hora atual.
+help.command.datetime=&lt;datetime&gt; insere a data e hora atual.
+help.symbols=Alguns símbolos são usados para identificar os usuários.
+help.symbols.log_in=Uma <img border="0" src="images/new.gif" width="9" height="9" alt="novo"> indica que o usuário está ativo.
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notifica"> indica que o usuário não está mais ativo.
+help.hint=Dica:
+help.hint.refresh=Digite uma mensagem em branco para atualizar a janela do chat.
+help.smilies=Smilies:
+help.smilies.link=Clique aqui para ver os Smiles disponíveis.
+ 
+# smilies
+smilies.title=Smilies
+smilies.description=Smilies são caracteres do teclado que são usados para transmitir uma emoção, como alegria <img border="0" src="images/smilies/smile.gif" width="16" height="16" alt="alegre"> ou tristeza <img border="0" src="images/smilies/frown.gif" width="16" height="16" alt="triste">, ao digitar os caracters estes serão substituídos pelas imagens como mostrado na lista abaixo.
+smilies.hung_over=Cansado
+smilies.smile=Contente
+smilies.clown=Palhaço
+smilies.frown=Zangado
+smilies.wink=Piscada
+smilies.angry=Bravo
+smilies.devil=Malvado
+smilies.big_grin=Sorrindo
+smilies.oh=Espantado!
+smilies.cheeky=Bochechudo
+smilies.tongue=Línguarudo
+
+# colors
+colors.none=Cores
+colors.black=Preto
+colors.red=Vermelho
+colors.green=Verde
+colors.blue=Azul
+ 
+# errors
+error.maximum_users_reached=O número máximo de usuários foi alcançado. Não será permitido entrar neste momento.
+error.missing_username=Você tem que digitar um usuário antes de entrar na Sala de Chat.
+error.username_in_use=Você não pode usar este nome, pois outra pessoa já está usando.
+error.invalid_username=Seu nome contém caracteres impróprios. Por favor escolha outro.
+error.username_blocked=Desculpe, mas você não pode entrar em com este nome.
+error.username_length_exceeded=O nome informado não deve exceder {0} caracteres.
+

@@ -1,0 +1,108 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translation by: 		Perttu Poyhtari
+# ConquerChat Version: 	4.1
+#
+
+# headers
+users.title=Käyttäjät
+rooms.title=Huoneet
+message.title=Kirjoita viestisi
+
+# buttons
+button.login=sisään
+button.send=lähetä
+button.help=apua
+button.logout=lopeta
+button.add=lisää
+
+# login screen
+login.username=Käyttäjätunnus:
+login.users_online=Käyttäjiä langoilla
+login.no_users_online=Ei yhtään käyttäjää kirjautuneena
+login.users_logged_on={0} / {1} käyttäjästä kirjautuneena
+login.join_chat=Liity {0}
+login.header.username=Nimimerkki
+login.header.room=Huone
+
+# admin screen
+admin.login={0} Ylläpito
+admin.password=Salasana:
+
+admin.button.kick=Potkaise
+admin.button.init=Pohjusta!
+admin.button.remove=Poista
+admin.error.incorrect_password=Virhe kirjautumisessa.
+
+# users
+users.all=Kaikki
+users.initializing=Valmistellaan...
+
+# user
+user.logged_on={0} saapui {1}
+user.logged_off={0} päätti lähteä huoneesta {1}
+user.left_room={0} lähti huoneesta {1} ja siirtyi huoneeseen {2}
+user.entered_room={0} saapui juuri huoneeseen {2}
+user.say_all={0} sanoo {1}
+user.say_private={0} kuiskaa {1} "{2}"
+
+# profile
+profile.title=Käyttäjän {0} profiili
+profile.ip_address=IP-osoite
+profile.logged_on=Kirjautui
+profile.last_action=Viimeinen tapahtuma
+profile.written_messages=kirjoitettuja viestejä
+profile.close=Sulje
+
+# rooms
+rooms.max_limit_reached=Virhe uutta huonetta lisättäessä\n\nSinulla ei ole oikeuksia lisätä uusia huoneita tähän chattiin. \n{0} huoneen raja on täyttynyt. \n Voit halutessasi ottaa yhteyttä ylläpitoon ({1}) \ntämän määrän suurentamiseksi.
+
+typing_too_fast=Kirjoitat viestejä liian nopeasti. Odota hetki ja yritä sitten uudelleen.
+you_have_been_logged_out=Olet kirjautunut ulos chatistä.
+
+# private chat
+private.title=Yksityinen chatti: {0} ja {1}
+
+# help
+help.title=Pika ohje
+help.commands=Tämä lista kertoo käytettävissä olevat komennot.
+help.command.bold=&lt;b&gt; ja &lt;/b&gt; ympyröi <b>lihavoidun</b> tekstin.
+help.command.italic=&lt;i&gt; ja &lt;/i&gt; ympyröi <i>kursivoidun</i> tekstin.
+help.command.underline=&lt;u&gt; ja &lt;/u&gt; ympyröi <u>alleviivatun</u> tekstin.
+help.command.date=&lt;date&gt; kirjoittaa nykyisen päivämäärän.
+help.command.time=&lt;time&gt; kirjoittaa nykyisen kellonajan.
+help.command.datetime=&lt;datetime&gt;kirjoittaa nykyisen päivämäärän ja kellonajan.
+help.symbols=Tapahtumia merkitseviä symboleita.
+help.symbols.log_in=A <img border="0" src="images/new.gif" width="9" height="9" alt="new"> merkitsee, että käyttäjä on kirjautunut sisään.
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> merkitsee, että käyttäjä on kirjautunut ulos.
+help.hint=Vihje:
+help.hint.refresh=Kirjoita tyhjä viesti päivittääksesi viestiruudun välittömästi.
+help.smilies=Hymiöt:
+help.smilies.link=Klikkaa tähän nähdäksesi mahdolliset hymiöt.
+
+# smilies
+smilies.title=Hymiöt
+smilies.description=Kun kirjoitat hymiöitä, korvataan ne näillä kuvilla.
+smilies.hung_over=Kankkunen
+smilies.smile=Hymy
+smilies.clown=Pelle
+smilies.frown=Surullinen
+smilies.wink=Silmänisku
+smilies.angry=Vihainen
+smilies.devil=Piru
+smilies.big_grin=Nauru
+smilies.oh=Oh!
+smilies.cheeky=Nenäkäs, röyhkeä
+smilies.tongue=Illistys
+
+# errors
+error.maximum_users_reached=Chatin suurin sallittu käyttäjämäärä on saavutettu. Et voi liittyä chattiin tällä hetkellä.
+error.missing_username=Sinun on annettava nimimerkki, ennen kuin voit aloittaa chatin.
+error.username_in_use=Et voi käyttää tätä nimerkkiä, se on jo toisen henkilön käytössä.
+error.invalid_username=Nimimerkissä on sopimattomia merkkejä. Valitse jokin toinen nimimerkki.
+error.username_blocked=Et voi kirjautua tällä nimimerkillä.
+error.username_length_exceeded=Käyttäjätunnus ei voi olla yli {0} merkkiä pitkä.

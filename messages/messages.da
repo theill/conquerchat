@@ -1,0 +1,107 @@
+#
+# All headers used in ConquerChat. You should not change the text on the 
+# left side of the first equal sign (=) since this is the 'key' used to
+# identify a localized message. {0}, {1}, ..., {n} will be replaced with
+# dynamic content when the message is retrieved.
+#
+# Translated For Version: 4.1.1
+#
+
+# headers
+users.title=Brugere
+rooms.title=Chatrum
+message.title=Skriv din besked
+
+# buttons
+button.login=Log ind
+button.send=Send
+button.help=Hjælp
+button.logout=Log ud
+button.add=Tilføj
+
+# login screen
+login.username=Brugernavn:
+login.users_online=Brugere Online
+login.no_users_online=Ingen brugere online
+login.users_logged_on={0} af {1} brugere online
+login.join_chat=Gå ind i {0}
+login.header.username=Brugernavn
+login.header.room=Chatrum
+
+# admin screen
+admin.login={0} Administration
+admin.password=Kodeord:
+
+admin.button.kick=Spark
+admin.button.init=Initialiser!
+admin.button.remove=Fjern
+admin.error.incorrect_password=Du har indtastet forkert kodeord.
+
+# users
+users.all=Alle brugere
+users.initializing=Initialiserer...
+
+# user
+user.logged_on={0} loggede på klokken {1}
+user.logged_off={0} valgte at smutte {1}
+user.left_room={0} forlod {1} og gik til {2}
+user.entered_room={0} gik lige ind i {2}
+user.say_all={0} siger {1}
+user.say_private={0} hvisker {1} "{2}"
+
+# profile
+profile.title={0}'s profil
+profile.ip_address=IP Addresse
+profile.logged_on=Logget on
+profile.last_action=Sidste handling
+profile.written_messages=Skrevne beskeder
+profile.close=Luk
+
+# rooms
+rooms.max_limit_reached=Fejl i oprettelse af rum.\n\nDu kan ikke oprette dette rum nu.\n\nMax antal rum er {0}.\n\nDu kan kontakte webmaster ({1}) hvis du ønsker at få hævet antallet af mulige rum.
+
+typing_too_fast=Du skriver for hurtigt. Vent et øjeblik.
+you_have_been_logged_out=Du er blevet logget af chatten.
+
+# private chat
+private.title=Privat chat mellem {0} og {1}
+
+# help
+help.title=Hurtig Help
+help.commands=Denne liste giver dig et overblik over brugbar kommandoer.
+help.command.bold=&lt;b&gt; og &lt;/b&gt; omkring <b>bold</b> tekst.
+help.command.italic=&lt;i&gt; og &lt;/i&gt; omkring <i>italic</i> tekst.
+help.command.underline=&lt;u&gt; og &lt;/u&gt; omkring <u>underlined</u> tekst.
+help.command.date=&lt;date&gt; indsæt datoen nu.
+help.command.time=&lt;time&gt; indsæt tiden nu.
+help.command.datetime=&lt;datetime&gt; indsæt dato og tid nu.
+help.symbols=Nogle symboler er brugt til at indikere, brugere logger af/på osv.
+help.symbols.log_in=A <img border="0" src="images/new.gif" width="9" height="9" alt="new"> bruger logger ind.
+help.symbols.log_out=A <img border="0" src="images/bp.gif" width="9" height="9" alt="notify"> bruger logger af.
+help.hint=Hint:
+help.hint.refresh=Skriv vilken som helst besked for at opdatere chat-vinduet.
+help.smilies=Smilies:
+help.smilies.link=Klik her for at se smilies.
+
+# smilies
+smilies.title=Smilies
+smilies.description=Når du skriver bestemte tegn, bliver de udskiftet med en smili.
+smilies.hung_over=Hung Over
+smilies.smile=Smile
+smilies.clown=Clown
+smilies.frown=Frown
+smilies.wink=Wink
+smilies.angry=Angry
+smilies.devil=Devil
+smilies.big_grin=Big Grin
+smilies.oh=Oh!
+smilies.cheeky=Cheeky
+smilies.tongue=Tongue
+
+# errors
+error.maximum_users_reached=Der er ikke plads til flere brugere. Du kan ikke logge ind på nuværende tidspunkt.
+error.missing_username=Du skal indtaste et brugernavn for at bruge chatten.
+error.username_in_use=Dette brugernavn er i brug, vælg et andet.
+error.invalid_username=Dit brugernavn indeholder ulovlige tegn. Vælg venligst et andet.
+error.username_blocked=Du kan ikke logge på med dette brugernavn.
+error.username_length_exceeded=Brugernavnet må ikke overskride {0} tegn.

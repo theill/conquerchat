@@ -1,0 +1,394 @@
+/**
+ * $Id: chat.css,v 1.1.1.1 2003/03/09 22:45:57 peter Exp $
+ * 
+ * General stylesheet for ConquerChat
+ * 
+ * From this stylesheet your are able to control most text-formatting 
+ * settings for ConquerChat. Be aware of some differencies between
+ * various browser brands. If you want to maintain the highest amount
+ * of compatibility between browsers make sure to test changes to this 
+ * file.
+ * 
+ * If you do a great style for your web site and think other users 
+ * might want to use it when setting up ConquerChat on their servers 
+ * sent it to me and I might include it in future versions of this
+ * distribution.
+ * 
+ */
+
+body, table, tr, td, p, ul, li {
+	color: black;
+	font-family: Verdana, Geneva, Arial, Helvetica, Sans-serif;
+	font-size: 13px;
+}
+
+body.frontpage {
+	background-color: #cccccc;
+	margin: 0px;
+	padding: 0px;
+}
+
+body.messages {
+	background-color: #eeeeee;
+	margin: 0px;
+}
+
+body.users {
+	background-color: #eeeeee;
+	margin: 0px;
+}
+
+body.rooms {
+	background-color: #eeeeee;
+	margin: 0px;
+}
+
+body.add_room {
+	background-color: #eeeeee;
+	margin: 4px;
+}
+
+body.message {
+	background-color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+}
+
+body.profile {
+	background-color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+}
+
+body.help {
+	background-color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../images/helpbackground.gif');
+	background-repeat: no-repeat;
+	background-postion: top left;
+}
+
+input {
+	border-top: 1px solid #4e4e4e;
+	border-left: 1px solid #4e4e4e;
+	border-right: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+input.btn { /* button */
+	border-top: 1px solid #f0f0f0;
+	border-left: 1px solid #f0f0f0;
+	border-right: 1px solid #4e4e4e;
+	border-bottom: 1px solid #4e4e4e;
+	background-color: #ff9900;
+	color: white;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-family: Tahoma, Verdana, Sans-serif;
+	font-weight: bold;
+	padding: 1px;
+}
+
+select {
+	font-size: 10px;
+	font-family: Verdana, Sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: rgb(255, 99, 23);
+}
+
+A:visited {
+	color: #A00000;
+}
+
+A:active {
+	color: #808080;
+}
+
+A:hover {
+	color: #FF0000;
+}
+
+.dark {
+	;
+}
+
+.light {
+	;
+}
+
+.Message {
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+
+
+.PrivateMessage {
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	padding-left: 12px;
+}
+
+TD.MessageName {
+	background-color: #F0F0F0;
+}
+
+TD.PrivateMessageName, SPAN.PrivateMessageName {
+	background-color: #FF0000;
+	color: white;
+	font-family: Verdana, Geneva, Helvetica, Arial, Sans-serif;
+	font-size: 7.5pt;
+	font-weight: bold;
+}
+
+div.message {
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 10px;
+	font-weight: thiner;
+	color: #666666;
+}
+
+div.privateMessage {
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 10px;
+	font-weight: thiner;
+	font-style: italic;
+	color: #666666;
+}
+
+span.username {
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 10px;
+	font-weight: bolder;
+	color: Maroon;
+}
+
+span.message {
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+
+span.privateMessage {
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+
+.Name {
+	font-family: Verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 7.5pt;
+	font-weight: bold;
+	color: Maroon;
+}
+
+.LoggedIn {
+	font-family: Verdana, geneva, arial, helvetica, Sans-serif;
+	font-size: 10px;
+	color: #33aa33;
+}
+
+.LoggedOut {
+	font-family: Verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #aa3333;
+}
+
+.LeavingRoom {
+	font-family: Verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #9999aa;
+}
+
+.EnteringRoom {
+	font-family: Verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #3333aa;
+}
+
+.Error {
+	font-family: Verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+}
+
+.Info {
+	font-family: Verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: green;
+}
+
+INPUT.editField {
+	font-size: 14px;
+	font-family: Monospace, None;
+}
+
+.infoHeader {
+	font-family: verdana, geneva, arial, helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #000000;
+}
+
+.infoText {
+	font-size: 8pt;
+}
+
+.Cinfo {
+	font-size:8pt;
+}
+
+
+/**
+ * Login
+ *
+ */
+
+table.login {
+	border-bottom: 1px dashed #999999;
+}
+
+th.login {
+	background-color: #eeeeee;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	border-top: 1px solid #999999;
+	border-bottom: 2px solid #999999;
+}
+
+table.hlp, tr.hlp, td.hlp { /* help */
+	font-size: 10px;
+}
+
+ul.hlp { /* help */
+	font-size: 10px;
+	margin-top: 6px;
+}
+
+li.hlp { /* help */
+	font-size: 10px;
+}
+
+td.smi { /* smiley */
+	font-size: 10px;
+}
+
+td.smis { /* smiley symbol */
+	font-size: 12px;
+	font-family: Monospace;
+}
+
+div.err { /* error */
+	position: fixed;
+	width: 75%;
+	text-align: center;
+	font: bold 11px Tahoma, Sans-serif;
+	color: #cc0000;
+	padding: 8px;
+	border: 4px dashed #990000;
+}
+
+div.msgs { /* messages */
+	padding: 8px;
+}
+
+div.hdr { /* header */
+	background-color: #aee24c;
+	color: #006600;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 6px;
+	font-family: Tahoma, Verdana, Sans-serif;
+	border-bottom: 1px dashed #ffffff;
+}
+
+td.hdr { /* header used for tables e.g. on the frontpage, admin page, etc */
+	font-size: 10px;
+	font-weight: bold;
+	color: #333333;
+	text-align: right;
+	padding-right: 8px;
+	padding-bottom: 8px;
+}
+
+td.txt { /* text for form fields */
+	text-align: right;
+}
+
+td.uocap { /* users online - caption */
+	border-bottom: 1px dashed #000000;
+	color: #000000;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 11px;
+}
+
+td.uofoot { /* users online - footer */
+	font-family: Tahoma, Sans-serif;
+	font-size: 10px;
+	color: #006600;
+	text-align: right;
+}
+
+th.uo { /* users online */
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 10px;
+	color: #333333;
+	background-color: #8fcd46;
+	text-align: left;
+}
+
+td.uo { /* users online */
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 10px;
+}
+
+td.uo2 { /* users online - second row */
+	font-family: Verdana, Geneva, Arial, Sans-serif;
+	font-size: 10px;
+	background-color: #F6F6F6;
+	border-top: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+td.rc { /* room - current */
+	font-family: Tahoma, Verdana, Sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #bbcc99;
+	font-weight: bold;
+}
+
+td.r { /* room */
+	font-family: Tahoma, Verdana, Sans-serif;
+	font-size: 11px;
+}
+
+img.lnk { /* link */
+	cursor: hand;
+}
+
+
+/**
+ * Rooms
+ * 
+ */
+table.Rooms {
+	width: 100%;
+	border-collapse: collapse;
+	border-width: 0;
+}
+
+table.Rooms td {
+	padding: 2px;
+}

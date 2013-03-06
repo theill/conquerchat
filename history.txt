@@ -1,0 +1,94 @@
+
+ ConquerChat README
+ Copyright (c) 2000-2005 Peter Theill, theill.com
+ 
+ ----------------------------------------------------------------------------
+ Version history
+ ----------------------------------------------------------------------------
+ 
+  + Added new set of smilies to 'images/smilies/moods' folder.
+  + Added CLEAN_ON_ENTER configuration setting for allowing 'IRC Mode' i.e.
+    users are seeing a clean chat window when the enter the room.
+  ! Fixed issue 1 from http://www.theill.com/snitzforum/topic.asp?TOPIC_ID=1639
+
+ 2004/03/04 - Released 4.4
+  + Using remote scripting to perform logout and disabled popup when logging
+    out users since this is blocked by popup blockers.
+  + Added IP address for users on administration page.
+  + Added method "gettext" to retrieve a text from message file but returning
+    key if not found e.g. gettext("some text") returns "some text" if this
+    key doesn't exist in the message file.
+  - Changing RegExp check in "addRoom" to read from constant to allow users 
+    to easily define their own style (or remove it altogether).
+  - Constant 'APPLICATION_NAME' replaced with message 'application.name' in 
+    all page <title> tags.
+  ! Corrected issues 1-10 from http://www.theill.com/snitzforum/topic.asp?TOPIC_ID=781
+  
+ 2003/03/09 - Released 4.3
+  + Added "color combobox" to message view. This allows users to select a 
+    color to use when sending their messages.
+  ! Fixed Issue 1 - 8 from http://www.theill.com/snitzforum/topic.asp?TOPIC_ID=720
+  i ConquerChat is now using "Sessions" (the "Session" object) since almost 
+    every user customizing the chat is adding this.
+  
+ 2002/10/18 - Released 4.2
+  + Fixed issue with JavaScript putting the focus in the lower part of the
+    screen when it should actually be in the top.
+  + Fixed security problem with users being able to see other users private
+    messages.
+ 
+ 2002/06/07 - Released 4.1.1
+  + Localized messages added for Danish, Spanish, Finnish and Swedish.
+  + Added filter for disallowing certain usernames.
+  - Fixed JavaScript error reporting "<state> not defined" where <state> was
+    the localized word for either True or False.
+  
+ 2002/05/26 - Released 4.1
+  + Added B (bold), I (italic) and U (underline) styles to message area so 
+    it's possible to select a style and have all your messages printed in 
+    that style.
+  + Added option for saving messages to a logfile (transcript functionality)
+ 
+ 2002/04/23 - Released 4.0.1
+  + Displaying number of users in a room.
+  - Put help and smiley pages into message file for easier translation.
+ 
+ 2002/04/21 - Released 4.0
+  + Dynamic reload of windows
+  + Administration module
+  + Easier private messages
+  - Major area rewritten to support dynamic update of view (no page reload).
+ 
+ 2002/02/23 - Released 3.2
+  + Added Bad Word Filter
+  ! Fixed problem with message window not being correctly refreshed on some
+    browsers.
+  - New design on logon screen.
+  
+ 2001/09/30 - Released 3.1
+  + Added support for private messages
+  + Added user statistics for showing log on time, last action time, number 
+    of messages typed in the chat and the users IP address.
+ 
+ 2001/06/09 - Released 3.0.2.0
+  + Added a page being displayed for the user if required variables haven't
+    been included in global.asa file.
+  + Added option for clearing message field after having send a message.
+  
+ 2001/03/21 - Released 3.0.1.0
+  + Added a new constant "TOP_MESSAGE_ORDER" for selecting if the messages
+    should be printed top-to-bottom or bottom-to-top.
+  
+ 2001/02/08 - Released 3.0.0.1
+  ! Fixed a problem when checking for invalid username in default.asp page.
+  
+ 2000/10/22 - Released 3.0.0.0
+  + Added support for multiple rooms
+ 
+ 2000/07/18 - Released 2.1.1.0
+  + updated code with a more safe logout method.
+  + help files updated to show smiley states and descriptions.
+ 
+ 2000/06/29 - Released 2.1.0.0
+  + added ability to replace typed smilies with images showing state. This
+    feature was implemented thanks to Michael Mackert.
